@@ -82,6 +82,12 @@ sl
 p
 g
 ````
+[NOTE] If you usually use WSL on windows \Desktop, you can set it as Defualt Path, when opening wsl terminal. <\br>
+The path is usually "/mnt/c/Users/your_username/Desktop". Add the following line to ~./bashrc:
+
+````
+cd /mnt/c/Users/your_username/Desktop
+````
 
 Following the tutorial, eddit functions.sh and make it executable:
 ````
