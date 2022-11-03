@@ -111,3 +111,20 @@ ls -la
 chmod g+w aliases.sh
 ls -la
 ````
+
+##Hadling Json on shell:
+Create fruit.json:
+````
+touch fruit.json
+````
+Write on Json:
+````
+echo '{"fruit":{"name":"apple","color":"green","price":1.20}}' > fruit.json
+````
+Read from Json:
+
+````
+jq 'fruit' fruit.json
+jq '.fruit.color,.fruit.price' fruit.json
+````
+
